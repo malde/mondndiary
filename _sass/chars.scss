@@ -1,0 +1,69 @@
+@import "fonts";
+
+.chars {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 0 0 1rem 0;
+
+    .char {
+        border: 3px solid;
+        border-radius: 6px;
+        padding: .5rem .5rem .2rem .5rem;
+
+        .char__image {
+            img {
+                border-width: 6px;
+                border-style: ridge;
+                max-width: 6rem;
+            }
+        }
+
+        .char__bio {
+            .char__bio--name {
+                font-family: $title-font;
+                font-size: 1.1rem;
+                display: block;
+            }
+            .char__bio--info {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .chars {
+
+        .char {
+            border: 5px solid;
+            border-radius: 10px;
+            padding: .5rem;
+
+            .char__image {
+                img {
+                    border-width: 10px;
+                    max-width: 9rem;
+                }
+            }
+
+            .char__bio {
+                .char__bio--name {
+                    font-size: 1.4rem;
+                }
+                .char__bio--info {
+                    display: block;
+                    font-size: .9rem;
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .chars {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

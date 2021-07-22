@@ -1,0 +1,64 @@
+@import "fonts";
+
+.summary {
+    display: grid;
+    grid-gap: 0 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+            "summary";
+    align-content: space-evenly;
+
+    .summary__content {
+        grid-area: summary;
+
+        p {
+            text-align: justify;
+        }
+
+        & > *:first-child {
+            margin-top: .5rem;
+        }
+        & > *:last-child {
+            margin-bottom: .5rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 500px) {
+
+    .summary {
+        grid-template-columns: 1fr 7fr;
+        grid-template-areas:
+                "date summary";
+
+        .summary__header {
+            grid-area: date;
+            text-align: right;
+
+            .summary__date {
+                display: inline-block;
+                font-family: $handwritten;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                color: gray;
+                opacity: .2;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .summary {
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-areas:
+                "date summary .";
+
+        .summary__header {
+            .summary__date {
+                font-size: 1.75rem;
+            }
+        }
+    }
+}

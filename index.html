@@ -1,0 +1,19 @@
+---
+layout: default
+title: MonD&Diary
+---
+
+<div class="container">
+    <header class="page__header">
+        <img src="img/mondndiary.png" alt="MonD&Diary" />
+<!--        <h2>by Sammy</h2>-->
+    </header>
+    <aside class="chars">
+        {% include chars.html %}
+    </aside>
+    <section class="summaries">
+        {% for post in site.posts reversed %}
+            {{ post }}
+        {% endfor %}
+    </section>
+</div>
