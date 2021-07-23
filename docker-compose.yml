@@ -1,0 +1,13 @@
+---
+version: "3.7"
+
+services:
+  mondndiary:
+    restart: always
+    build: .
+    ports: 
+    - "4000:4000"
+    volumes:
+    - type: bind
+      source: ./_posts
+      target: /usr/src/app/_posts
