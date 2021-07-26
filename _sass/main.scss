@@ -13,6 +13,14 @@ h1, h2, h3, h4, h5 {
     font-family: $header-font;
 }
 
+.strikethrough {
+    text-decoration: line-through;
+}
+.special {
+    font-family: $header-font;
+    font-weight: bold;
+}
+
 .page__header {
     text-align: center;
     padding: 3rem 0;
