@@ -9,6 +9,20 @@
             "summary";
     align-content: space-evenly;
 
+    .summary__header {
+        text-align: right;
+        display: none;
+
+        .summary__date {
+            display: inline-block;
+            font-family: $handwritten;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: gray;
+            opacity: .2;
+        }
+    }
+
     .summary__content {
         grid-area: summary;
 
@@ -34,16 +48,7 @@
 
         .summary__header {
             grid-area: date;
-            text-align: right;
-
-            .summary__date {
-                display: inline-block;
-                font-family: $handwritten;
-                font-size: 1.5rem;
-                line-height: 2rem;
-                color: gray;
-                opacity: .2;
-            }
+            display: block;
         }
     }
 }
