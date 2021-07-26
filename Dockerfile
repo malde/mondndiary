@@ -1,4 +1,4 @@
-FROM ruby:2.5
+FROM ruby:2.7.3
 
 WORKDIR /usr/src/app
 
@@ -7,4 +7,4 @@ RUN bundle update
 
 COPY . .
 
-CMD bundle exec jekyll server --host=0.0.0.0 --livereload
+ENTRYPOINT ["bundle", "exec", "jekyll", "server"]
