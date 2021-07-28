@@ -2,11 +2,16 @@
 
 * {
     font-family: $text-font;
+    line-height: 1.5rem;
     box-sizing: border-box;
 }
 
 body {
     background-color: #f9f7ec;
+}
+
+footer {
+    padding-top: 5rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -15,6 +20,10 @@ h1, h2, h3, h4, h5 {
 
 strong {
     font-family: $header-font;
+}
+
+.todo {
+    background-color: yellow;
 }
 
 .page__header {

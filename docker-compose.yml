@@ -23,4 +23,4 @@ services:
     - type: bind
       source: ./index.html
       target: /usr/src/app/index.html
-    command: ["--host=0.0.0.0", "--livereload"]
+    command: ["--host=0.0.0.0", " --force_polling", "--livereload"]

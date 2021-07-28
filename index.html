@@ -16,4 +16,10 @@ title: MonD&Diary
             {{ post }}
         {% endfor %}
     </section>
+    <footer class="summary">
+        <article class="summary__content">
+            {% capture glossary %}{% include glossary.md %}{% endcapture %}
+            {{ glossary | markdownify }}
+        </article>
+    </footer>
 </div>
