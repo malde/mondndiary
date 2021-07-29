@@ -18,13 +18,13 @@
             font-family: $handwritten;
             font-size: 1.5rem;
             line-height: 2rem;
-            color: gray;
-            opacity: .2;
+            color: #ec2127;
         }
     }
 
     .summary__content {
         grid-area: summary;
+        text-rendering: optimizeLegibility;
 
         p {
             text-align: justify;
