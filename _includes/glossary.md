@@ -52,6 +52,9 @@ Belak
 Gulthias
 : evil Tree
 
+Gripnik
+: ehemaliger Schamane der Goblins in der sonnenlosen Zitadelle
+
 Milli
 : Schülerin von Sylva
 
