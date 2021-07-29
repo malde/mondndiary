@@ -33,12 +33,24 @@ Glimbel
 
 Kilin
 : Oberhaupt der Diebesgilde in Triel
+                 
+Meeks
+: Kobold
 
-Yustrai
+Yusdrayl
 : Koboldmatriachin
+
+Die Sovereign
+: Matriachin des Pilzkollektivs
+
+Einer-ist-viele
+: Schädelrattenschwarm
 
 Belak
 : evil Treehugger
+
+Gulthias
+: evil Tree
 
 Milli
 : Schülerin von Sylva
