@@ -21,6 +21,9 @@ services:
       source: ./_includes
       target: /usr/src/app/_includes
     - type: bind
+      source: ./img
+      target: /usr/src/app/img
+    - type: bind
       source: ./index.html
       target: /usr/src/app/index.html
     command: ["--host=0.0.0.0", " --force_polling", "--livereload"]

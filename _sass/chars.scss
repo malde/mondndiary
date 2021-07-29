@@ -16,6 +16,7 @@
             img {
                 border-width: 6px;
                 border-style: ridge;
+                max-height: 6rem;
                 max-width: 6rem;
             }
         }
@@ -44,6 +45,7 @@
             .char__image {
                 img {
                     border-width: 10px;
+                    max-height: 9rem;
                     max-width: 9rem;
                 }
             }
