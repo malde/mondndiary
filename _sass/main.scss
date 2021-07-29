@@ -7,8 +7,16 @@
 }
 
 body {
+    background-color: #2c3e50;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 912px;
+    margin: 0 auto;
     background-color: #eee5ce;
     background-image: url(https://raw.githubusercontent.com/naturalcrit/homebrewery/2f663e0ea7003e7c4ef0ca3278a0e52d5e2bfbb3/themes/assets/parchmentBackground.jpg);
+    box-shadow: 1px 4px 14px #000;
 }
 
 footer {
@@ -52,10 +60,14 @@ strong, dt {
 }
 
 .container {
-    margin: 1rem 2rem 10rem;
+    margin: 0 2rem 10rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 952px) {
+    body {
+        margin: 20px;
+    }
+
     .container {
         max-width: 768px;
         margin-left: auto;
