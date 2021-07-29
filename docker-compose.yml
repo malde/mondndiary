@@ -2,28 +2,14 @@ version: "3.7"
 
 services:
   mondndiary:
+    image: ruby:2.7.3
     restart: always
-    build: .
-    ports: 
+    working_dir: /usr/src/app/
+    ports:
     - "4000:4000"
     - "35729:35729"
     volumes:
     - type: bind
-      source: ./_posts
-      target: /usr/src/app/_posts
-    - type: bind
-      source: ./_layouts
-      target: /usr/src/app/_layouts
-    - type: bind
-      source: ./_sass
-      target: /usr/src/app/_sass
-    - type: bind
-      source: ./_includes
-      target: /usr/src/app/_includes
-    - type: bind
-      source: ./img
-      target: /usr/src/app/img
-    - type: bind
-      source: ./index.html
-      target: /usr/src/app/index.html
-    command: ["--host=0.0.0.0", " --force_polling", "--livereload"]
+      source: ./
+      target: /usr/src/app/
+    command: ["bash", "-c", "bundle update && bundle exec jekyll server --host=0.0.0.0 --livereload"]
