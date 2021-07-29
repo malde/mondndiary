@@ -2,7 +2,7 @@
 
 * {
     font-family: $text-font;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     box-sizing: border-box;
 }
 
@@ -16,10 +16,13 @@ footer {
 
 h1, h2, h3, h4, h5 {
     font-family: $header-font;
+    border-bottom: 2px solid #c9ad6a;
+    color: #58180d;
 }
 
-strong {
-    font-family: $header-font;
+strong, dt {
+    font-weight: bold;
+    letter-spacing: .03em;
 }
 
 .todo {

@@ -23,11 +23,12 @@
 
         .char__bio {
             .char__bio--name {
-                font-family: $title-font;
+                font-family: $name-font;
                 font-size: 1.1rem;
                 display: block;
             }
             .char__bio--info {
+                font-family: $info-font;
                 display: none;
             }
         }
