@@ -4,27 +4,37 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    text-align: center;
+    text-align: left;
     padding: 1rem 0 2rem 0;
 
     .char {
-        border: 3px solid;
-        border-radius: 6px;
-        padding: .5rem .5rem .2rem .5rem;
+        background-color: #e0e5c1;
+        border-width: 11px;
+        border-style: solid;
+        border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAANlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHL6OuAAAAEXRSTlMABAwYJDRIXHSLo7fL2+fz+6go4VUAAAB6SURBVHgB7dg5DsJQAANRZ9+Xuf9lQUKKEHT5LlL4HWB6W5d61m1zrT/dhm5j6/RjPCkJco761ixQFoSl0aXfKQ+y9/qoJnAEYar01q64gqytNBz4ghyDMPMHnyYiIiIiIgIzYeYfj/Z56x3g7ovAf2L4bxb/EWS/ql7LZCDx/Ry3RwAAAABJRU5ErkJggg==") 11;
+        border-image-outset: 9px 0;
+        box-shadow: 1px 4px 14px #888;
+        margin: .5rem;
 
         .char__image {
+            text-align: center;
+
             img {
                 border-width: 6px;
-                border-style: ridge;
+                border-style: solid;
                 max-height: 6rem;
                 max-width: 6rem;
+                padding: .5rem;
+                background-color: white;
+                box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
             }
         }
 
         .char__bio {
             .char__bio--name {
                 font-family: $name-font;
-                font-size: 1.1rem;
+                font-weight: bold;
+                padding-top: .5rem;
                 display: block;
             }
             .char__bio--info {
@@ -39,22 +49,18 @@
     .chars {
 
         .char {
-            border: 5px solid;
-            border-radius: 10px;
-            padding: .5rem;
+            margin: 1rem;
 
             .char__image {
                 img {
                     border-width: 10px;
                     max-height: 9rem;
                     max-width: 9rem;
+                    padding: .8rem;
                 }
             }
 
             .char__bio {
-                .char__bio--name {
-                    font-size: 1.4rem;
-                }
                 .char__bio--info {
                     display: block;
                     font-size: .9rem;
@@ -68,5 +74,9 @@
 @media only screen and (min-width: 768px) {
     .chars {
         grid-template-columns: repeat(4, 1fr);
+
+        .char {
+            margin: 0;
+        }
     }
 }

@@ -116,8 +116,41 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src:
+        local("Scaly Sans Caps"),
+        url("fonts/Scaly Sans Caps/Scaly Sans Caps.otf"),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps.otf") format("opentype");
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src:
+        local("Scaly Sans Caps"),
+        url("fonts/Scaly Sans Caps/Scaly Sans Caps Bold Italic.otf"),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src:
+        local("Scaly Sans Caps"),
+        url("fonts/Scaly Sans Caps/Scaly Sans Caps Bold.otf"),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Scaly Sans Caps";
+    src:
+        local("Scaly Sans Caps"),
+        url("fonts/Scaly Sans Caps/Scaly Sans Caps Italic.otf"),
+        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Italic.otf") format("opentype");
+    font-style: italic;
+}
+
 $text-font: "Bookinsanity", Georgia, serif;
-$name-font: 'Nodesto Caps Condensed', serif;
+$name-font: 'Scaly Sans Caps', sans-serif;
 $info-font: 'Scaly Sans', sans-serif;
 $header-font: 'Mr Eaves Small Caps', serif;
 $handwritten: 'Shadows Into Light', cursive;
