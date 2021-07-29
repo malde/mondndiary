@@ -9,7 +9,17 @@ services:
     - "4000:4000"
     - "35729:35729"
     volumes:
-    - type: bind
-      source: ./
-      target: /usr/src/app/
+      - ./Gemfile:/usr/src/app/Gemfile
+      - ./_config.yml:/usr/src/app/_config.yml
+      - ./_includes:/usr/src/app/_includes
+      - ./_layouts:/usr/src/app/_layouts
+      - ./_posts:/usr/src/app/_posts
+      - ./_sass:/usr/src/app/_sass
+      - ./css:/usr/src/app/css
+      - ./img:/usr/src/app/img
+      - ./favicon.ico:/usr/src/app/favicon.ico
+      - ./favicon-16x16.png:/usr/src/app/favicon-16x16.png
+      - ./favicon-32x32.png:/usr/src/app/favicon-32x32.png
+      - ./apple-touch-icon.png:/usr/src/app/apple-touch-icon.png
+      - ./index.html:/usr/src/app/index.html
     command: ["bash", "-c", "bundle update && bundle exec jekyll server --host=0.0.0.0 --livereload"]
