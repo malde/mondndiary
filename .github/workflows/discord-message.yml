@@ -13,4 +13,5 @@ jobs:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
         username: "MonD&Diary"
-        args: "${{ github.event.pusher.name }} pushed ${{ github.event.head_commit.message }}"
+        avatar_url: "https://i.imgur.com/zo97OH9.jpeg"
+        args: "> **${{ github.event.pusher.name }}** pushed `${{ github.event.head_commit.message }}` into the repo, it'll be up any minute now: https://malde.me/mondndiary"
