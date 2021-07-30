@@ -12,4 +12,5 @@ jobs:
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-        args: The ${{ github.event_name }} event triggered first step.
+        username: "MonD&Diary"
+        args: "${{ github.event.pusher.name }} pushed ${{ github.event.head_commit.message }}"
