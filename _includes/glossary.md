@@ -25,6 +25,9 @@ Gareth
 Lord Profjît
 : Halfling, Auftraggeber aus Triel
 
+Tante Braga ✝
+: Sea-Hag auf Razbans Insel
+
 Mondweide
 : Dryade
 
@@ -71,7 +74,10 @@ Milli
 : Schülerin von Sylva
 
 Sylva
-: Druidin in Triel
+: Half Elf Druidin in Triel, mittleres Alter, braunes, ergrauendes Haar, grüne Augen, bisschen klein und pummelig
+
+Tante Korra
+: Hag im Einhornwald, schaurige Vettel, Hüterin des letzten verbliebenen dunklen Baums
 
 Alsharon
 : Einhorn, Namensgeber des Einhornwaldes
