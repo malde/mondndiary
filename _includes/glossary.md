@@ -5,7 +5,7 @@
 - Tiefwasser
   - Zum gähnenden Portal
   - Haffgier-Profjît Anwesen
-
+- Razbans Insel
 - Westliche Wildlande
   - Kliffbruch
   - Altbrunn
@@ -35,22 +35,34 @@ Kilin
 : Oberhaupt der Diebesgilde in Triel
                  
 Meeks
-: Kobold
+: Kobold, Laufbursche von Yusdrayl
 
 Yusdrayl
-: Koboldmatriachin
+: Koboldmatriachin in den Höhlen um die sonnenlose Zitadelle
 
 Die Sovereign
-: Matriachin des Pilzkollektivs
+: Matriachin des Pilzkollektivs in der sonnenlosen Zitadelle
 
 Einer-ist-viele
-: Schädelrattenschwarm
+: Schädelrattenschwarm in sonnenloser Zitadelle
 
 Belak
-: evil Treehugger
+: evil Treehugger, besiegt in der sonnenlosen Zitadelle und an Kobolde übergeben
 
-Gulthias
-: evil Tree
+Gulthias ✝
+: evil Tree, getötet in der sonnenlosen Zitadelle
+
+Sir Braford ✝
+: Ritter aus dem Orden "Ritterschaft der silbernen Hand", verstorben in der sonnenlosen Zitadelle
+
+Bran Torren ✝
+: Ranger aus Triel, angeheuert von Sir Braford, verstorben in der sonnenlosen Zitadelle
+
+Sherwyn
+: Questgegenstand 1
+
+Talyn
+: Questgegenstand 2
 
 Gripnik
 : ehemaliger Schamane der Goblins in der sonnenlosen Zitadelle
