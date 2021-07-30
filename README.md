@@ -1,4 +1,4 @@
-# MonDnDiary
+# MonD&Diary
 
 There are three ways to do this.
 
