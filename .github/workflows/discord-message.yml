@@ -14,9 +14,4 @@ jobs:
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
         username: "MonD&Diary"
         avatar_url: "https://i.imgur.com/zo97OH9.jpeg"
-        args: "**${{ github.event.pusher.name }}** pushed `${{ github.event.head_commit.message }}`"
-    - name: send default message
-      uses: appleboy/discord-action@master
-      with:
-        webhook_id: ${{ secrets.WEBHOOK_ID }}
-        webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        args: "New commit by **${{ github.event.pusher.name }}**: `${{ github.event.head_commit.message }}`"
