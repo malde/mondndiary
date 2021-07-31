@@ -3,7 +3,7 @@
 ### Orte
 
 - Tiefwasser
-  - Zum gähnenden Portal
+  - Zum Gähnenden Portal
   - Haffgier-Profjît Anwesen
 - Razbans Insel
 - Westliche Wildlande
@@ -11,7 +11,6 @@
   - Altbrunn
   - Kornwall
     - Der Weidenwald
-
 - Triel
   - Eichsturz
   - Die sonnenlose Zitadelle
@@ -62,10 +61,10 @@ Bran Torren ✝
 : Ranger aus Triel, angeheuert von Sir Braford, verstorben in der sonnenlosen Zitadelle
 
 Sherwyn
-: Questgegenstand 1
+: Questgegenstand A
 
 Talyn
-: Questgegenstand 2
+: Questgegenstand B
 
 Gripnik
 : ehemaliger Schamane der Goblins in der sonnenlosen Zitadelle
