@@ -15,7 +15,7 @@ body {
     max-width: 912px;
     margin: 0 auto;
     background-color: #eee5ce;
-    background-image: url(https://raw.githubusercontent.com/naturalcrit/homebrewery/2f663e0ea7003e7c4ef0ca3278a0e52d5e2bfbb3/themes/assets/parchmentBackground.jpg);
+    background-image: url(../img/parchment.webp);
     box-shadow: 1px 4px 14px #000;
 }
 
@@ -44,6 +44,7 @@ strong, dt {
 
     img {
         max-width: 100%;
+        height: auto;
     }
 
     h1, h2 {
@@ -66,12 +67,13 @@ strong, dt {
 
 @media only screen and (min-width: 952px) {
     body {
-        margin: 20px;
+        margin: 2rem;
     }
 
     .container {
         max-width: 768px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10rem;
     }
 }

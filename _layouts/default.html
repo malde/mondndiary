@@ -21,12 +21,12 @@
 </div>
 
 <script type="text/javascript">
-  var style1 = document.createElement('link');
-  style1.rel = 'stylesheet';
-  style1.href = 'css/main.css';
-  style1.type = 'text/css';
-  var defer1 = document.getElementsByTagName('link')[0];
-  defer1.parentNode.insertBefore(style1, defer1);
+  const styleSheet = document.createElement('link');
+  styleSheet.rel = 'stylesheet';
+  styleSheet.href = 'css/main.css';
+  styleSheet.type = 'text/css';
+  const deferred = document.getElementsByTagName('link')[0];
+  deferred.parentNode.insertBefore(styleSheet, deferred);
 </script>
 </body>
 </html>
