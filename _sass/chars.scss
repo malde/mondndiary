@@ -1,5 +1,3 @@
-@import "fonts";
-
 .chars {
     display: grid;
     grid-gap: 1rem;
@@ -16,7 +14,7 @@
         box-shadow: 1px 4px 14px #888;
         margin: .5rem;
 
-        .char__image {
+        &__image {
             text-align: center;
 
             img {
@@ -30,14 +28,13 @@
             }
         }
 
-        .char__bio {
-            .char__bio--name {
+        &__bio {
+            &--name {
                 font-family: $name-font;
-                font-weight: bold;
                 padding-top: .5rem;
                 display: block;
             }
-            .char__bio--info {
+            &--info {
                 font-family: $info-font;
                 display: none;
             }
@@ -51,7 +48,7 @@
         .char {
             margin: 1rem;
 
-            .char__image {
+            &__image {
                 img {
                     border-width: 10px;
                     max-height: 9rem;
@@ -60,8 +57,8 @@
                 }
             }
 
-            .char__bio {
-                .char__bio--info {
+            &__bio {
+                &--info {
                     display: block;
                     font-size: .9rem;
                     color: #333;

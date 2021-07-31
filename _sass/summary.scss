@@ -1,5 +1,3 @@
-@import "fonts";
-
 .summary {
     display: grid;
     grid-gap: 0 1rem;
@@ -9,11 +7,11 @@
             "summary";
     align-content: space-evenly;
 
-    .summary__header {
+    &__header {
         text-align: right;
         display: none;
 
-        .summary__date {
+        &--date {
             display: inline-block;
             font-family: $handwritten;
             font-size: 1.5rem;
@@ -22,7 +20,7 @@
         }
     }
 
-    .summary__content {
+    &__content {
         grid-area: summary;
         text-rendering: optimizeLegibility;
 
@@ -45,7 +43,7 @@
         grid-template-areas:
                 "date summary";
 
-        .summary__header {
+        &__header {
             grid-area: date;
             display: block;
         }
@@ -58,8 +56,8 @@
         grid-template-areas:
                 "date summary .";
 
-        .summary__header {
-            .summary__date {
+        &__header {
+            &--date {
                 font-size: 1.75rem;
             }
         }
