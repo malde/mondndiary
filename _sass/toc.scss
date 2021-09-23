@@ -1,0 +1,45 @@
+.toc {
+    &__heading {
+        font-family: $header-font;
+        font-size: 1.5em;
+        font-weight: bold;
+        border-bottom: 2px solid $heading-border;
+        color: $heading-color;
+        cursor: pointer;
+    }
+
+    &__table {
+        display: table;
+        padding: 1rem 0;
+
+        &--row {
+            display: table-row;
+        }
+
+        &--cell {
+            display: table-cell;
+            padding-bottom: .5rem;
+        }
+    }
+    &__date {
+        font-family: $handwritten;
+        color: $handwritten-color;
+        font-size: 1.1rem;
+    }
+}
+
+//details > summary {
+//    list-style-type: none;
+//}
+//
+//details > summary::-webkit-details-marker {
+//    display: none;
+//}
+//
+//details > summary::before {
+//    content: 'auf  ';
+//}
+//
+//details[open] > summary::before {
+//    content: 'zu ';
+//}

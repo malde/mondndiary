@@ -8,18 +8,12 @@ title: MonD&Diary
         <img src="img/mondndiary.webp" width="655" height="122" alt="MonD&Diary" />
     </header>
     {% include intro.html %}
-    <aside class="chars">
-        {% include chars.html %}
-    </aside>
+    {% include chars.html %}
+    {% include toc.html %}
     <section class="summaries">
         {% for post in site.posts reversed %}
             {{ post }}
         {% endfor %}
     </section>
-    <footer class="summary">
-        <article class="summary__content">
-            {% capture glossary %}{% include glossary.md %}{% endcapture %}
-            {{ glossary | markdownify }}
-        </article>
-    </footer>
+    {% include footer.html %}
 </div>

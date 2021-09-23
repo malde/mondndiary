@@ -1,0 +1,17 @@
+<aside class="summary">
+    <div class="summary__content">
+        <details class="toc" open>
+            <summary class="toc__heading" title="Inhaltsverzeichnis aufklappen">Inhalt</summary>
+            <div class="toc__table">
+                {% for post in site.posts reversed %}
+                <div class="toc__table--row">
+                    <div class="toc__table--cell">
+                        <a href="#summary{{ post.date | date: '%Y%m%d' }}" title="{{ post.title }}">{{ post.title }}</a>
+                        (<span class="toc__date">{{ post.date | date: '%d.%m.%Y' }}</span>)
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </details>
+    </div>
+</aside>

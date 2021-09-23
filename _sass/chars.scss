@@ -6,7 +6,7 @@
     padding: 1rem 0 2rem 0;
 
     .char {
-        background-color: #e0e5c1;
+        background-color: $chars-bgcolor;
         border-width: 11px;
         border-style: solid;
         border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAANlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHL6OuAAAAEXRSTlMABAwYJDRIXHSLo7fL2+fz+6go4VUAAAB6SURBVHgB7dg5DsJQAANRZ9+Xuf9lQUKKEHT5LlL4HWB6W5d61m1zrT/dhm5j6/RjPCkJco761ixQFoSl0aXfKQ+y9/qoJnAEYar01q64gqytNBz4ghyDMPMHnyYiIiIiIgIzYeYfj/Z56x3g7ovAf2L4bxb/EWS/ql7LZCDx/Ry3RwAAAABJRU5ErkJggg==") 11;
@@ -61,7 +61,7 @@
                 &--info {
                     display: block;
                     font-size: .9rem;
-                    color: #333;
+                    color: $info-color;
                 }
             }
         }

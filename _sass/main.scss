@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: #2c3e50;
+    background-color: $body-bgcolor;
     margin: 0;
 }
 
 .wrapper {
     max-width: 912px;
     margin: 0 auto;
-    background-color: #eee5ce;
+    background-color: $wrapper-bgcolor;
     background-image: url(../img/parchment.webp);
     box-shadow: 1px 4px 14px #000;
 }
@@ -24,7 +24,21 @@ footer {
 h1, h2, h3, h4, h5 {
     font-family: $header-font;
     border-bottom: 2px solid #c9ad6a;
-    color: #58180d;
+    color: $heading-color;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+
+    &:hover {
+        color: $handwritten-color;
+    }
+
+    &:before {
+        content: "\27A5";
+        padding-right: .4rem;
+    }
 }
 
 strong, dt {
