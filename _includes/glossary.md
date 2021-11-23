@@ -82,10 +82,10 @@ Alsharon
 : Einhorn, Namensgeber des Einhornwaldes
 
 Wind in den Glockenblumen
-:Pixie, von Sylva auch "Glöckchen" genannt
+: Pixie, von Sylva auch "Glöckchen" genannt
 
 Pagea
-:Naiade, Namensgeber für Pagea's Hain
+: Naiade, Namensgeber für Pagea's Hain
 
 Malkavar
 : grüner Drache, selbstbetitelt als "der grüne Tod"
